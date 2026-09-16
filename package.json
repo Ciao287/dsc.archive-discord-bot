@@ -1,0 +1,25 @@
+{
+  "name": "dsc.archive-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Ciao287/dsc.archive-discord-bot#readme",
+  "bugs": {
+    "url": "https://github.com/Ciao287/dsc.archive-discord-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ciao287/dsc.archive-discord-bot.git"
+  },
+  "license": "MIT",
+  "author": "Ciao287",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dsc.archive": "^0.2.1"
+  }
+}
