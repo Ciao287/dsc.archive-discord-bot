@@ -1,5 +1,5 @@
 # dsc.archive-discord-bot
-
+This is a demo bot for my library: [dsc.archive](https://github.com/Ciao287/dsc.archive)
 ## How to Install
 1) Install [Node.js](https://nodejs.org/en/download/package-manager/current) and [Git](https://git-scm.com/downloads);
 2) Open terminal in the folder where you want to install ModBot and run `git clone https://github.com/Ciao287/dsc.archive-discord-bot`
