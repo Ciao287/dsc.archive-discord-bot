@@ -20,6 +20,10 @@
   },
   "dependencies": {
     "discord.js": "^14.27.0",
-    "dsc.archive": "^0.2.1"
+    "dsc.archive": "^0.2.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }
