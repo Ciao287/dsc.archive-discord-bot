@@ -62,7 +62,7 @@ module.exports = {
         try {
             result = await fetchMessages(channel, amount, fields, additionalOptions);
             const json = await result.toJSON();
-            await interaction.editReply({ files: [{attachment: Buffer.from(json), name: 'fetchedMessages.json'}], flags: MessageFlags.Ephemeral})
+            await interaction.editReply({ files: [{attachment: Buffer.from(json), name: 'fetchedMessages.json'}], flags: MessageFlags.Ephemeral});
         } catch (error) {
             if (error instanceof TypeError) {
                 await interaction.editReply({ content: `TypeError: ${error.message}`, flags: MessageFlags.Ephemeral });
@@ -70,7 +70,6 @@ module.exports = {
                 console.error(error);
             };
             return;
-        }
-        console.log(result);
+        };
 	}
 };
